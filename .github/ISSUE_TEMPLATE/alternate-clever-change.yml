@@ -19,14 +19,12 @@ body:
   - type: checkboxes
     id: scope
     attributes:
+      label: Scope
       description: Which areas are affected by this change?
       options:
-        - dict.txt
-        - neg_trigs.json
-        - na_trigs.json
-        - CLEVER Code Base
-      label: "Scope"
-      required: true
-
+        - label: dict.txt
+        - label: neg_trigs.json
+        - label: na_trigs.json
+        - label: CLEVER Code Base
 ---
 
