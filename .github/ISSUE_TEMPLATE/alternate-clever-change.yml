@@ -1,6 +1,5 @@
 ---
 name: "Update to Dict"
-about: "Create a report to help us improve"
 title: "Terminology Update - "
 labels: "dict.txt"
 body:
