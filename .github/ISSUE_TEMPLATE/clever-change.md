@@ -27,6 +27,6 @@ __... or narrative of change__
 __specific validation instructions and what defines success__
 
 [Validation dict.txt](https://github.com/dax-westerman/sandbox/wiki/Validating-dict.txt-Changes)
-[Validating Trigger Files] https://github.com/dax-westerman/sandbox/wiki/Validating-trigger-files-SOP
+[Validating Trigger Files](https://github.com/dax-westerman/sandbox/wiki/Validating-trigger-files-SOP)
 [Validating CLEVER-rockies](https://github.com/dax-westerman/sandbox/wiki/Validating-CLEVER%E2%80%90rockies-SOP)
 [Validating CLEVER Synapse](https://github.com/dax-westerman/sandbox/wiki/Validating-Synapse-Code-SOP)
