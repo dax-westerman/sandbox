@@ -1,6 +1,6 @@
 ---
 name: "CLEVER Change Request"
-title: "Terminology Update - "
+title: "CLEVER Change Request - "
 labels: "CLEVER"
 description: "Generic issue to track CLEVER Changes"
 body:
@@ -35,7 +35,7 @@ body:
       options:
         - label: Synapse
         - label: clever-rockies
-  - type: input
+  - type: textarea
     id: validation_steps
     attributes:
       label: Validation Details
