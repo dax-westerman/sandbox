@@ -24,6 +24,7 @@ body:
       - "neg_trigs.json"
       - "na_trigs.json"
       - "CLEVER Code Base"
+    label: "Scope"
     required: true
 
 ---
