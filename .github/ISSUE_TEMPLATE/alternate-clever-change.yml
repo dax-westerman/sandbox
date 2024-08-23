@@ -17,6 +17,7 @@ body:
         - label: neg_trigs.json
         - label: na_trigs.json
         - label: CLEVER Code Base
+          required: true
   - type: textarea
     id: background
     attributes:
