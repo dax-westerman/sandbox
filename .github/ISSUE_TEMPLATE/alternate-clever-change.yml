@@ -1,7 +1,7 @@
 ---
 name: "CLEVER Change Request"
 title: "Terminology Update - "
-labels: 'CLEVER'
+labels: "CLEVER"
 description: "Generic issue to track CLEVER Changes"
 body:
   - type: markdown
