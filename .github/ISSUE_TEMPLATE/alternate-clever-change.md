@@ -1,3 +1,4 @@
+---
 name: Update to Dict
 about: Create a report to help us improve
 title: 'Terminology Update - '
@@ -19,3 +20,4 @@ body:
       default: 0
     validations:
       required: true
+---
