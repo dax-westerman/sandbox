@@ -19,7 +19,7 @@ body:
   - type: checkboxes
     id: scope
     description: Which areas are affected by this change?
-    attributes:
+    options:
       - "dict.txt"
       - "neg_trigs.json"
       - "na_trigs.json"
