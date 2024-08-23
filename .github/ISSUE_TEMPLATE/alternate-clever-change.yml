@@ -6,18 +6,24 @@ description: "This is a test"
 body:
   - type: markdown
     attributes:
-      value: "Intro text"
-  - type: dropdown
-    id: download
+      value: "**Scope**"
+  - type: markdown
     attributes:
-      label: How did you download the software?
-      options:
-        - Built from source
-        - Homebrew
-        - MacPorts
-        - apt-get
-      default: 0
-    validations:
-      required: true
+      value: "**Background**"
+  - type: markdown
+    attributes:
+      value: "**Request**"
+  - type: markdown
+    attributes:
+      value: "**Validation Steps**"
+  - type: checkboxes
+    id: scope
+    description: Which areas are affected by this change?
+    attributes:
+      - "dict.txt"
+      - "neg_trigs.json"
+      - "na_trigs.json"
+      - "CLEVER Code Base"
+
 ---
 
