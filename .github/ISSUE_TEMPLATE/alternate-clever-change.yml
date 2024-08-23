@@ -2,6 +2,7 @@
 name: "Update to Dict"
 title: "Terminology Update - "
 labels: "dict.txt"
+description: "This is a test"
 body:
   - type: markdown
     attributes:
