@@ -7,6 +7,9 @@ body:
   - type: markdown
     attributes:
       value: "Please fill out the details involved in this change request."
+  - type: markdown
+    attributes:
+      value: "## Request"
   - type: checkboxes
     id: scope
     attributes:
@@ -27,6 +30,9 @@ body:
     attributes:
       label: Request Details
       description: Please provide any details for this request.
+  - type: markdown
+    attributes:
+      value: "## Validation"
   - type: checkboxes
     id: validation_scope
     attributes:
@@ -43,7 +49,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        **Validation SOPs**
+        **Validation SOP Wikis**
         [Validation dict.txt](https://github.com/dax-westerman/sandbox/wiki/Validating-dict.txt-Changes)
         [Validating Trigger Files](https://github.com/dax-westerman/sandbox/wiki/Validating-trigger-files-SOP)
         [Validating CLEVER-rockies](https://github.com/dax-westerman/sandbox/wiki/Validating-CLEVER%E2%80%90rockies-SOP)
