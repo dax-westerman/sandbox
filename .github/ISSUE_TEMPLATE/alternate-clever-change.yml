@@ -6,25 +6,17 @@ description: "This is a test"
 body:
   - type: markdown
     attributes:
-      value: "**Scope**"
-  - type: markdown
-    attributes:
-      value: "**Background**"
-  - type: markdown
-    attributes:
-      value: "**Request**"
-  - type: markdown
-    attributes:
-      value: "**Validation Steps**"
+      value: "Please fill out the details involved in this change request."
   - type: checkboxes
     id: scope
     attributes:
-      label: Scope
+      label: Change Scope
       description: Which areas are affected by this change?
       options:
         - label: dict.txt
         - label: neg_trigs.json
         - label: na_trigs.json
         - label: CLEVER Code Base
+      required: true
 ---
 
