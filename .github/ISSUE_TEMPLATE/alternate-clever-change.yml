@@ -27,6 +27,14 @@ body:
     attributes:
       label: Request Details
       description: Please provide any details for this request.
+  - type: checkboxes
+    id: validation_scope
+    attributes:
+      label: Validation Scope
+      description: Where should this be validated?
+      options:
+        - label: Synapse
+        - label: clever-rockies
   - type: input
     id: validation_steps
     attributes:
