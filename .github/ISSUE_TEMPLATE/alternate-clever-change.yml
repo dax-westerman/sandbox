@@ -1,8 +1,8 @@
 ---
-name: "Update to Dict"
+name: "CLEVER Change"
 title: "Terminology Update - "
-labels: "dict.txt"
-description: "This is a test"
+labels: ""
+description: "Generic issue to track CLEVER Changes"
 body:
   - type: markdown
     attributes:
