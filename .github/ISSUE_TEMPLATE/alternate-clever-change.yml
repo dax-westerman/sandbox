@@ -22,5 +22,22 @@ body:
     attributes:
       label: Background for Request
       description: Please provide any provenance for this request.
+  - type: input
+    id: request_details
+    attributes:
+      label: Request Details
+      description: Please provide any details for this request.
+  - type: input
+    id: validation_steps
+    attributes:
+      label: Validation Details
+      description: Please provide specific validation details.
+  - type: markdown
+    attributes:
+      value: |
+        [Validation dict.txt](https://github.com/dax-westerman/sandbox/wiki/Validating-dict.txt-Changes)
+        [Validating Trigger Files](https://github.com/dax-westerman/sandbox/wiki/Validating-trigger-files-SOP)
+        [Validating CLEVER-rockies](https://github.com/dax-westerman/sandbox/wiki/Validating-CLEVER%E2%80%90rockies-SOP)
+        [Validating CLEVER Synapse](https://github.com/dax-westerman/sandbox/wiki/Validating-Synapse-Code-SOP)
 ---
 
